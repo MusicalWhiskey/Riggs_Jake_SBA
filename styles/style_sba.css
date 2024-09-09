@@ -1,7 +1,7 @@
 .box {
     border: 1px dashed white;
     height: 100px;
-    width: 1000px;
+    width: 1200px;
     color: darkcyan;
 }
 
@@ -23,11 +23,47 @@ body {
     background-color: black;
 }
 
-.navbar-brand {
-
-}
-
 .navbar-dark {
     text-decoration: darkcyan;
+}
+
+  
+
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.navbar-brand > img {
+    transform:scale(1);
+    transition:transform .2s ease;
+}
+
+.navbar-brand > img:hover {
+    transform:scale(1.2);
+}
+
+.navbar{
+  position: fixed !important;
+  width:100%;
+  transition: background-color 1s;
+  box-shadow:0 0 30px rgba(0,0,0,0.03);
+  color:#000;
+}
+
+.navbar-nav li > a {
+    color:rgba(0,0,0,0.22);
+    font-weight:400;
+}
+
+.navbar-nav li > a:hover {
+    color:rgba(0,0,0,1);
+}
+
+.navbar-nav > li{
+  padding-left:5px;
+  padding-right:5px;
 }
 
