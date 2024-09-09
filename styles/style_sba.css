@@ -1,10 +1,13 @@
 .box {
     border: 1px dashed white;
-    height: 100px;
-    width: 1200px;
+    height: 200px;
+    width: 1500px;
     color: darkcyan;
 }
 
+.boxes {
+    border: 1px dashed darkcyan;
+}
 h1 {
     color: darkcyan;
 }
@@ -12,6 +15,7 @@ h1 {
 body {
     background-color: black;
     text: darkcyan
+    
 }
 
 .alert:any-link {
@@ -19,21 +23,23 @@ body {
 }
 
 .alert {
-    color:rgb(34, 100, 100);
+    color:darkcyan;
     background-color: black;
+    position: auto;
+
 }
+
 
 .navbar-dark {
     text-decoration: darkcyan;
 }
 
-  
-
   .navbar-brand {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of your logo width */
-    display: block;
+    position: auto;
+    left: auto;
+    margin-left: 10px !important; 
+    display: auto;
+    padding-right: 100px;
 }
 
 .navbar-brand > img {
@@ -46,7 +52,7 @@ body {
 }
 
 .navbar{
-  position: fixed !important;
+  position: static !important;
   width:100%;
   transition: background-color 1s;
   box-shadow:0 0 30px rgba(0,0,0,0.03);
@@ -68,5 +74,23 @@ body {
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-around;
+    flex-direction: row;
 }
+
+.boxes {
+    height: 180px;
+    width: 180px;
+    margin:20px;
+}
+
+/* img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
