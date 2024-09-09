@@ -1,0 +1,29 @@
+.box {
+    border: 1px dashed white;
+    height: 100px;
+    width: 1000px;
+    color: darkcyan;
+}
+
+h1 {
+    color: darkcyan;
+}
+
+body {
+    background-color: black;
+    text: darkcyan
+}
+
+.alert-link {
+    color: white);
+}
+
+.alert {
+    color:rgb(34, 100, 100);
+    background-color: black;
+}
+
+.navbar-brand {
+
+}
+
