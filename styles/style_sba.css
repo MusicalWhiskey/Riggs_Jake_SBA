@@ -108,13 +108,6 @@ body {
     background-color: black;
 }
 
-.table th {
-    width: auto;
-    text-align: center;
-    color: darkcyan;
-    align-self: center
-    ;
-}
 
 .btn {
     background-color: darkcyan;
@@ -136,4 +129,18 @@ form {
 
 .form-check {
     align-content: center;
+}
+
+.h4 {
+    align-items: center;
+}
+
+table {
+    align-self: center;
+    color: grey;
+}
+
+.div {
+    align-content: center;
+    align-items: center;
 }
