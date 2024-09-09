@@ -14,8 +14,8 @@ body {
     text: darkcyan
 }
 
-.alert-link {
-    color: white);
+.alert:any-link {
+    color: rgb(53, 177, 222));
 }
 
 .alert {
@@ -67,3 +67,6 @@ body {
   padding-right:5px;
 }
 
+.container {
+    margin-top: 100px;
+}
